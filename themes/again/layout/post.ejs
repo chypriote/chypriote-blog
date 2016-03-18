@@ -1,0 +1,21 @@
+<%- partial('./_partial/navbar') %>
+<main class="post">
+	<article>
+		<h1 class="article-title">
+			<a href="<%- url_for(page.path) %>"><%- page.title %></a>
+		</h1>
+
+		<section class="article-meta">
+			<p class="article-date"><%- date(page.date, 'DD MMMM YYYY') %></p>
+		</section>
+
+		<section class="article-entry">
+			<%- page.content %>
+		</section>
+	</article>
+	<%- partial('_widget/sharing') %>
+
+	<% if (theme.disqus_shortname) { %>
+		<%- partial('_widget/disqus') %>
+	<% } %>
+</main>

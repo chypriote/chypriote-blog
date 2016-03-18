@@ -1,0 +1,9 @@
+.archive {
+	display: flex;
+	flex-direction: column;
+
+	article {margin: $gutter 0;}
+	.filler {flex: 1;}
+	.article-title {font-size: 1.2rem;}
+	.article-meta {padding-left: 2 * $gutter;}
+}

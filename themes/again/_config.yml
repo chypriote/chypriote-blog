@@ -1,0 +1,24 @@
+# basic
+title: Seriouslee ?
+subtitle: Mes aventures au pays du riz
+favicon: favicon.png
+
+avatar: images/avatar.png
+banner_small: images/banner-small.svg
+banner_large: images/banner-large.svg
+
+# disqus
+disqus_shortname: chypriote
+
+# nav #
+nav:
+  Accueil: .
+  archives: archives
+  à propos: http://cv.chypriote.me
+  contact: mailto:nicolastem@hotmail.fr
+
+# heox-renderre-sass
+node_sass:
+  outputStyle: nested
+  precision: 5
+  sourceComments: false

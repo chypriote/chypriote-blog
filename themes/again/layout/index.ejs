@@ -1,0 +1,21 @@
+<%- partial('./_partial/header') %>
+<main class="index">
+	<% page.posts.each(function(article){ %>
+		<article>
+			<header class="grid">
+				<h1 class="article-title grid-item">
+					<a class="hover-effect" href="<%- url_for(article.path) %>" data-hover="<%- article.title %>"><%- article.title %></a>
+				</h1>
+				<div class="article-meta">
+					<span class="article-date"><%- date(article.date, 'DD MMM YYYY') %></span>
+				</div>
+			</header>
+			<div class="article-entry">
+				<%- article.foreword %>
+			</div>
+		</article>
+	<% }) %>
+
+	<%- partial('./_widget/paginator') %>
+</main>
+

@@ -1,0 +1,15 @@
+.app-footer {
+	height: $app-footer-height;
+	min-height: $app-footer-height;
+	padding: $gutter;
+
+	text-align: center;
+	color: $app-footer-color;
+	font-size: .9rem;
+
+	background: url(../images/banner-large.svg);
+	background-position: bottom;
+	p {font-style: italic;}
+	a {color: $app-footer-color;}
+	a:hover {color: #eee;text-decoration: underline;}
+}

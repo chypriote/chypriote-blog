@@ -1,0 +1,37 @@
+.post {
+	display: flex;
+	flex-direction: column;
+
+	article {
+		flex-grow: 1;
+		line-height: $article-line-height;
+		p {margin: 0;}
+	}
+	.article-entry {
+		padding-top: 2 * $gutter;
+		a {color: $anchor-color;}
+		p {margin-bottom: $gutter;}
+		img {
+			margin: $gutter auto 0;
+			border: 4px solid #ccc;
+			display: block;
+			max-width: 100%;
+			max-height: 300px;
+		}
+		img + em {
+			display: flex;
+			font-size: .8em;
+			justify-content: center;
+		}
+	}
+	.article-title {
+		text-align: center;
+		padding-top: $gutter;
+	}
+	.article-date {
+		text-align: center;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		padding: $gutter 0;
+	}
+}
