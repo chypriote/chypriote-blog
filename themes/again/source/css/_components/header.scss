@@ -76,10 +76,12 @@
 
 		background: url(../images/banner-large.svg);
 		background-size: cover;
+		transition: height .3s ease;
 
 		.avatar {
 			width: $avatar-size / 1.5;
 			height: $avatar-size / 1.5;
+			transition: all .3s ease;
 		}
 		.title {
 			flex-grow: 1;
@@ -90,5 +92,10 @@
 			position: relative;
 			a {color: #fff;}
 			a:not(.active):hover {color: $anchor-color;}
+		}
+		&.slim {
+			height: 50px;
+			min-height: 50px;
+			.avatar {width: 40px;height: 40px;}
 		}
 	}
