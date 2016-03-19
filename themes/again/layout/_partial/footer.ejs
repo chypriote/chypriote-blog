@@ -3,13 +3,4 @@
 </footer>
 <script src="http://libs.useso.com/js/jquery/2.1.1/jquery.min.js"></script>
 <script src="http://libs.useso.com/js/fancybox/2.1.5/jquery.fancybox.min.js"></script>
-<script>
-$('.zoom').fancybox();
-$(window).scroll(function(){
-	if ($(this).scrollTop() > 1){
-		$('.app-navbar').addClass('slim');
-	} else {
-		$('.app-navbar').removeClass('slim');
-	}
-});
-</script>
+<%- js('js/app') %>
