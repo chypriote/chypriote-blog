@@ -9,6 +9,7 @@
 
 	background: url(../images/banner-large.svg);
 	background-position: bottom;
+	background-size: cover;
 	p {font-style: italic;}
 	a {color: $app-footer-color;}
 	a:hover {color: #eee;text-decoration: underline;}

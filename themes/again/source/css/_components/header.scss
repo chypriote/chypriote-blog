@@ -6,6 +6,7 @@
 	.placeholder {
 		padding-bottom: 20%;
 		background: url('../images/banner-large.svg');
+		background-size: cover;
 	}
 }
 .avatar {
@@ -70,6 +71,7 @@
 		align-items: center;
 
 		background: url(../images/banner-large.svg);
+		background-size: cover;
 
 		.avatar {
 			width: $avatar-size / 1.5;
