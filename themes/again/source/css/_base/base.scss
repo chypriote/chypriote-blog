@@ -28,6 +28,7 @@ main {
 	width: 100%;
 	max-width: $main-content-width;
 	padding: $gutter;
+	padding-top: $app-footer-height + $gutter;
 	margin: 0 auto;
 }
 

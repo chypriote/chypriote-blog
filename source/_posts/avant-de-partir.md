@@ -3,6 +3,7 @@ title: Avant de partir
 date: 2016-03-19 04:14:40
 tags:
 foreword: Les documents à préparer avant le voyage
+published: false
 ---
 
 Aller en Chine demande pas mal de paperasse, les chinois n'ont ~~mal~~heureusement pas encore rejoint l'espace Shengen, donc il faudra avoir plus qu'une carte d'identité à la sortie de l'avion:

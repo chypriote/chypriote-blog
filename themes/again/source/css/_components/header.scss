@@ -63,6 +63,9 @@
 	}
 /* Header pages */
 	.app-navbar {
+		position: fixed;
+
+		width: 100%;
 		height: $app-footer-height;
 		min-height: $app-footer-height;
 		padding: $gutter;

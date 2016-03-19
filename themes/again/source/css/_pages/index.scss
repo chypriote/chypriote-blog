@@ -1,4 +1,8 @@
 .index {
+	display: flex;
+	flex-direction: column;
+	padding-top: $gutter;
 	article {margin: $article-gutter 0;}
 	.article-entry {padding: $gutter 0;}
+	.article-list {flex-grow: 1;}
 }
