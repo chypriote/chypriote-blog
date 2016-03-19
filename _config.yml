@@ -70,8 +70,14 @@ theme: again
 deploy:
   type:
 
-# Imagemin
-imagemin:
+# Minifier
+html_minifier:
+  enable: false
+css_minifier:
+  enable: true
+js_minifier:
+  enable: true
+image_minifier:
   enable     : true
   interlaced : false
   multipass  : true

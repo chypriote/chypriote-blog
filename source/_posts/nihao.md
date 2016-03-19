@@ -10,7 +10,8 @@ Petite présentation personnelle, je suis Nicolas, ou ChypRiotE, 23 ans et étud
 
 Je commencerais par dire que la Chine n'était PAS la destination que j'ai demandé. Moi je voulais aller en Suède. J'étais près à affronter l'hiver scandinave et à manger du poisson 10 fois par semaine pendant un an, rien que pour avoir droit à une année entouré de sexy blondes.
 
-![Forcément ça fait rêver comme pays](swedish.jpg)*Oui je sais, vous êtes pas venus voir des suédoises, mais vous allez pas vous plaindre non plus ?*
+<a href="swedish.jpg" data-lightbox="swedish"><img src="swedish.jpg" title="Forcément ça fait rêver comme pays"></a>
+<figcaption>Oui je sais, vous êtes pas venus voir des suédoises, mais vous allez pas vous plaindre non plus ?</figcaption>
 
 Bref, tout ça pour dire qu'avant de venir ici (à Pékin), j'étais loin d'être motivé. Manger des nems tous les jours c'est moins motivant sans les blondes.  
 Mais ça, c'était avant. En fait, la Chine c'est cool. La Chine, c'est pas cher, la nourriture est bonne (en général), y a moyen de sortir tous les jours, et en tant qu'étranger sur place, tu es plus ou moins un prince partout où tu vas.
