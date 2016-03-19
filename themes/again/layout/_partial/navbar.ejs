@@ -6,10 +6,8 @@
 	<nav class="app-nav">
 		<% var first = true
 			for (var i in theme.nav){ %>
-				<% if (first) { %>
+				<% if (is_current(i)) { %>
 					<a class="active" href="<%- url_for(theme.nav[i]) %>"><%= i %></a>
-					<% first = false %>
-
 				<% } else { %>
 					<a href="<%- url_for(theme.nav[i]) %>"><%= i %></a>
 				<% } %>
